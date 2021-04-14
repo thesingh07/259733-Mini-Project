@@ -6,6 +6,8 @@
     ![UsecaseDiagram](https://github.com/thesingh07/259733-Mini-Project/blob/master/2_Architecture/behavior%20Diagrams/Usecase.png)
 
   * ### Structural Diagram
+    ### Class Diagram :
+    ![ClassDiagram](https://github.com/thesingh07/259733-Mini-Project/blob/master/2_Architecture/structure%20Diagrams/classdiagram.png)
 
 * ## Low Level Design 
   * ### Behavioural Diagram
