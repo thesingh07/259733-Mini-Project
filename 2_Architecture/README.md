@@ -7,7 +7,7 @@
 
   * ### Structural Diagram
     ### Class Diagram :
-    ![ClassDiagram](https://github.com/thesingh07/259733-Mini-Project/blob/master/2_Architecture/structure%20Diagrams/classdiagram.png)
+    ![ClassDiagram](https://github.com/thesingh07/259733-Mini-Project/blob/master/2_Architecture/structure%20Diagrams/class.png)
 
 * ## Low Level Design 
   * ### Behavioural Diagram
