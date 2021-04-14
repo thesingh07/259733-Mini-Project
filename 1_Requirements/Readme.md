@@ -10,7 +10,7 @@
 ![Description](Link to Pic)
 -- Content 
 ## Defining Our System
-###Features
+### Features
 * Student record system have following features:
     * Add student data
     * Search student data
@@ -21,24 +21,25 @@
 
 # 4W&#39;s and 1&#39;H
 
-## Who:
-* Small scale schools and colleges.   
+* ## Who:
+   * Small scale schools and colleges.   
 
-## What:
-* Many small and less facilated schools and colleges can't afford costly CRM or ERP systems. So they are bond to do tedious paper work and manage of students record.
+* ## What:
+   * Many small and less facilated schools and colleges can't afford costly CRM or ERP systems. So they are bond to do tedious paper work and manage of students record.
 
-## When:
-* Since the world is going towards digitalization demand has increased and also difficulties coming in managin files of the records.
+* ## When:
+   * Since the world is going towards digitalization demand has increased and also difficulties coming in managin files of the records.
 
-## Where:
-* This problem is faced everywhere in India and espeacially in small town or villege school.
+* ## Where:
+   * This problem is faced everywhere in India and espeacially in small town or villege school.
 
-## How:
-* This problem may cause loss of data. Finding the record is also a difficult and time consuming task. Data cannot be remotely accessible. 
+* ## How:
+   * This problem may cause loss of data. Finding the record is also a difficult and time consuming task. Data cannot be remotely accessible. 
 
 # Detail requirements
-## High Level Requirements:
+* ## High Level Requirements:
 | ID | Description | Status (Implemented/Future) |
+| ----- | ----- | ------- |
 | HLR 01 | User can Add new record | Implemented |
 | HLR 02 | User can Read new record | Implemented |
 | HLR 03 | User can Update record | Implemented |
@@ -46,6 +47,14 @@
 | HLR 05 | User can Delete record | Implemented |
 | HLR 06 | User can generate report | Future |
 
-##  Low level Requirements:
+* ##  Low level Requirements:
 | ID | Description | Status (Implemented/Future) |
-| LLR 01| 
+| ----- | ----- | ------- |
+| LLR 01|  | |
+| LLR 02| | |
+| LLR 03| | |
+| LLR 04| | |
+| LLR 05| | |
+| LLR 06| | |
+| LLR 07| | |
+
