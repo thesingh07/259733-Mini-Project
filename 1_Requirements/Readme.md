@@ -17,7 +17,7 @@
     * Delete student data
     * Generate report   
 ## SWOT ANALYSIS
-![SWOT-Sample](Link to Pic)
+![SWOTAnalysis](https://github.com/thesingh07/259733-Mini-Project/blob/master/1_Requirements/SWOT.png)
 
 # 4W&#39;s and 1&#39;H
 
