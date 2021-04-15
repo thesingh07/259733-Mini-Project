@@ -4,8 +4,14 @@
 * I choose this topic because it covers all the topic taught and scope to implement them. 
 
 ## Research
-![Description](Link to Pic)
--- Content 
+* Source of Idea
+   * Currently due to pendamic I am living in my home town which is very under developed compared to big city. Here we have a government school with the minimum facilities. I went to school and saw everybody there are rushing and busy in find a student record. They have one PC with them but no proper software and knowledge to use it   productively. So I thought of making a demo application to store students record which can work with least required resources.
+
+* Following are the major advantages of this system:
+   * Easy to use with less resources required
+   * Finding and maintaining records made easy
+   * No professitional assistantance required
+
 ## Cost and Features
 ![Description](Link to Pic)
 -- Content 
@@ -34,27 +40,27 @@
    * This problem is faced everywhere in India and espeacially in small town or villege school.
 
 * ## How:
-   * This problem may cause loss of data. Finding the record is also a difficult and time consuming task. Data cannot be remotely accessible. 
+   * This problem may cause loss of data. Finding the record is also a difficult and time consuming task. Also data may not be remotely accessible. 
 
 # Detail requirements
 * ## High Level Requirements:
 | ID | Description | Status (Implemented/Future) |
 | ----- | ----- | ------- |
-| HLR 01 | User can Add new record | Implemented |
-| HLR 02 | User can Read new record | Implemented |
-| HLR 03 | User can Update record | Implemented |
+| HLR 01 | Menu | Implemented |
+| HLR 02 | User can Add new record | Implemented |
+| HLR 03 | User can Read records | Implemented |
 | HLR 04 | User can Search record | Implemented |
 | HLR 05 | User can Delete record | Implemented |
-| HLR 06 | User can generate report | Future |
+| HLR 06 | User can Generate report | Implemented |
+| HLR 07 | User can Update record | Future |
 
 * ##  Low level Requirements:
 | ID | Description | Status (Implemented/Future) |
 | ----- | ----- | ------- |
-| LLR 01|  | |
-| LLR 02| | |
-| LLR 03| | |
-| LLR 04| | |
-| LLR 05| | |
-| LLR 06| | |
-| LLR 07| | |
+| LLR 01| Menu will consist of all the operations available in the application and their navigation to respective function | Implemented |
+| LLR 02| Add function will take student data such as Name, Standard, Roll Number and phone number which will be stored in a file named 'StudentRC'. Conditions like any field should not be kept empty and incorrect data should be taken care off | Implemented |
+| LLR 03| Search function enables user to find any particular record avaliable in the database from its roll number. If the roll number is not available in the database then proper message should be displayed notifying roll number not found | Implemented |
+| LLR 04| Delete function will take roll number as input and delete the record from our file and show the successfull deletion message | Implemented |
+| LLR 05| Generate report option will give all the data of all the students record available in our file | Implemented |
+| LLR 06| Update record feature will give access to users to update their record which will also update data in our file system | Future |
 
