@@ -5,12 +5,12 @@
 
 ## Research
   * Source of Idea
-  * Currently due to pendamic I am living in my home town which is very under developed compared to big city. Here we have a government school with the minimum facilities. I went to school and saw everybody there are rushing and busy in find a student record. They have one PC with them but no proper software and knowledge to use it   productively. So I thought of making a demo application to store students record which can work with least required resources.
+    * Currently due to pendamic I am living in my home town which is very under developed compared to big city. Here we have a government school with the minimum facilities. I went to school and saw everybody there are rushing and busy in find a student record. They have one PC with them but no proper software and knowledge to use it   productively. So I thought of making a demo application to store students record which can work with least required resources.
 
   * Following are the major advantages of this system:
-   * Easy to use with less resources required
-   * Finding and maintaining records made easy
-   * No professitional assistantance required
+    * Easy to use with less resources required
+    * Finding and maintaining records made easy
+    * No professitional assistantance required
 
 ## Cost and Features
 
