@@ -7,6 +7,7 @@ BUILD = build
 # All source code files
 SRC = main.c\
 
+INC	= -Iinc\
 
 #Library Inlcudes
 INCLUDE_LIBS = 
