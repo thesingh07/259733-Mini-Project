@@ -6,9 +6,8 @@ BUILD = build
 
 # All source code files
 SRC = main.c\
-src/Add.c\
 
-
+#All header files
 INC	= -Iinc\
 
 #Library Inlcudes
