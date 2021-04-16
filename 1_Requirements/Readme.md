@@ -13,8 +13,12 @@
   * No professitional assistantance required
 
 ## Cost and Features
+Time | Feature | Cost
+------|----------|---------
+Before 2000 | Paper based record system | $100K 
+2000 - 2010 | Usage of Computer systems | $100K 
+After 2010| Many good record maintance softwares | $50K 
 
--- Content 
 ## Defining Our System
 ### Features
   * Student record system have following features:
