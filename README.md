@@ -15,9 +15,9 @@ Folder             | Description
 
 ## Contributors List and Summary
 
-SF Id. |  Name   |    Features    | Issuess Raised |Issues Resolved|No Test Cases|Test Case Pass
--------|---------|----------------|----------------|---------------|-------------|--------------
-`259733` | Rajat Singh  | F01, F02, F03, F04, F05, F06 | X No | X No | X No | X No      
+SF Id. |  Name   |    Features    | 
+-------|---------|----------------|
+`259733` | Rajat Singh  | F01, F02, F03, F04, F05, F06 |     
    
 | Feature Id | Feature |
 | -----------|---------|
@@ -27,3 +27,10 @@ SF Id. |  Name   |    Features    | Issuess Raised |Issues Resolved|No Test Case
 |F04| User can Add, Delete Records |
 |F05| User can also find record from roll number|
 |F06| Admin can also generate report which will give data of all the students|
+
+## Challenges Faced and How Was It Overcome
+
+1. I was not aware how to incorporate badges but Bharath sir and Prithvi sir on connect sessions help us to overcome the issue.
+2. I am still unable to use multifile concept because of which my src files are empty and my whole code is in main.c . Will try to learn it and incorporate that later.
+3. I have done manual testing but unity testing is not done due to unablability of src folder and multifile.
+4. As my implementation is not upto the mark, standard makefile will not work for me. So I had made changes in makefile according to my implementation.
