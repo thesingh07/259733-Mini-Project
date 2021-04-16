@@ -5,35 +5,15 @@ PROJECT_NAME = StudentRC
 BUILD = build
 
 # All source code files
-SRC = main.c
+SRC = main.c\
 
-# All test source files
 
-TEST_OUTPUT = $(BUILD)/Test_$(PROJECT_NAME).out
-
-# All include folders with header files
-INC	= -Iinc\
--Iunity\
-
-ifdef OS
-   RM = del /q
-   FixPath = $(subst /,\,$1)
-   EXEC = exe
-   editor = notepad
-else
-   ifeq ($(shell uname), Linux)
-      RM = rm -rf
-      FixPath = $1
-	  EXEC = out
-	  editor = cat
-   endif
-endif
-TEST_OUTPUT = $(BUILD)/Test_$(PROJECT_NAME).$(EXEC)
-#Library Includes
+#Library Inlcudes
 INCLUDE_LIBS = 
 
+
 # Project Output name
-PROJECT_OUTPUT = $(BUILD)/$(PROJECT_NAME).$(EXEC)
+PROJECT_OUTPUT = $(BUILD)/$(PROJECT_NAME).out
 
 # Document files
 DOCUMENTATION_OUTPUT = documentation/html
@@ -45,11 +25,11 @@ $(PROJECT_NAME):all
 .PHONY: run clean test doc all
 
 all: $(SRC) $(BUILD)
-	gcc main.c $(SRC) $(INC) -o $(call FixPath,$(PROJECT_OUTPUT).$(EXEC))
+	gcc $(SRC) $(INC) -o $(PROJECT_OUTPUT).out
 
 # Call `make run` to run the application
 run:$(PROJECT_NAME)
-	./$(PROJECT_OUTPUT).$(EXEC)
+	./$(PROJECT_OUTPUT).out
 
 # Document the code using Doxygen
 doc:
@@ -60,10 +40,26 @@ test:$(BUILD)
 	gcc $(TEST_SRC) $(INC) -o $(TEST_OUTPUT) $(INCLUDE_LIBS)
 	./$(TEST_OUTPUT)
 
+analyze: test memcheck staticcheck coverage sanitize_check
+
+staticcheck:
+	cppcheck --enable=all -iunity .
+
+memcheck:
+	valgrind ./$(TEST_OUTPUT)
+
+sanitize_check:
+	gcc -fsanitize=address -fno-omit-frame-pointer $(TEST_SRC) $(INC) -o $(TEST_OUTPUT) $(INCLUDE_LIBS)
+	./$(TEST_OUTPUT)
+
+coverage:$(TEST_SRC)
+	gcc -fprofile-arcs -ftest-coverage $(TEST_SRC) $(INC) -o $(TEST_OUTPUT) $(INCLUDE_LIBS)
+	./$(TEST_OUTPUT)
+	gcov -a calculator_operations.c
+
 # Remove all the built files, invoke by `make clean`
 clean:
-	$(RM) *.(EXEC)
-	$(RM) StudentRC.bin
+	rm -rf $(BUILD) $(DOCUMENTATION_OUTPUT) *.gcda *.gcno *.gcov
 
 # Create new build folder if not present
 $(BUILD):
