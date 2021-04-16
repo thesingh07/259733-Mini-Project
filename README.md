@@ -1,4 +1,10 @@
 # Student Record System
+
+Build | Code Quality | cppcheck | [Git Inspector](using github.io option)
+------|----------|-------|--------------
+|[![C/C++ CI](https://github.com/thesingh07/259733-Mini-Project/actions/workflows/c-build.yml/badge.svg)](https://github.com/thesingh07/259733-Mini-Project/actions/workflows/c-build.yml)| [![Codacy Badge](https://app.codacy.com/project/badge/Grade/332f1b796513452ebbd3c6b9e7c9567d)](https://www.codacy.com/gh/thesingh07/259733-Mini-Project/dashboard?utm_source=github.com&amp;utm_medium=referral&amp;utm_content=thesingh07/259733-Mini-Project&amp;utm_campaign=Badge_Grade) |[![cppcheck-action](https://github.com/thesingh07/259733-Mini-Project/actions/workflows/cppcheck.yml/badge.svg)](https://github.com/thesingh07/259733-Mini-Project/actions/workflows/cppcheck.yml)|
+
+
 ## Folder Structure
 Folder             | Description
 -------------------| -----------------------------------------
