@@ -1,23 +1,23 @@
 # Requirements
 ## Introduction
-* In any institute whether school or university, managing students records is very important ad tedious task. So to make work easy management software is required which can perform CRUB operations on the data and gegenrate the report.
-* I choose this topic because it covers all the topic taught and scope to implement them. 
+  * In any institute whether school or university, managing students records is very important ad tedious task. So to make work easy management software is required which can perform CRUB operations on the data and gegenrate the report.
+  * I choose this topic because it covers all the topic taught and scope to implement them. 
 
 ## Research
-* Source of Idea
-   * Currently due to pendamic I am living in my home town which is very under developed compared to big city. Here we have a government school with the minimum facilities. I went to school and saw everybody there are rushing and busy in find a student record. They have one PC with them but no proper software and knowledge to use it   productively. So I thought of making a demo application to store students record which can work with least required resources.
+  * Source of Idea
+  * Currently due to pendamic I am living in my home town which is very under developed compared to big city. Here we have a government school with the minimum facilities. I went to school and saw everybody there are rushing and busy in find a student record. They have one PC with them but no proper software and knowledge to use it   productively. So I thought of making a demo application to store students record which can work with least required resources.
 
-* Following are the major advantages of this system:
+  * Following are the major advantages of this system:
    * Easy to use with less resources required
    * Finding and maintaining records made easy
    * No professitional assistantance required
 
 ## Cost and Features
-![Description](Link to Pic)
+
 -- Content 
 ## Defining Our System
 ### Features
-* Student record system have following features:
+  * Student record system have following features:
     * Add student data
     * Search student data
     * Delete student data
@@ -27,23 +27,23 @@
 
 # 4W&#39;s and 1&#39;H
 
-* ## Who:
-   * Small scale schools and colleges.   
+  * ## Who:
+    * Small scale schools and colleges.   
 
-* ## What:
-   * Many small and less facilated schools and colleges can't afford costly CRM or ERP systems. So they are bond to do tedious paper work and manage of students record.
+  * ## What:
+    * Many small and less facilated schools and colleges can't afford costly CRM or ERP systems. So they are bond to do tedious paper work and manage of students record.
 
-* ## When:
-   * Since the world is going towards digitalization demand has increased and also difficulties coming in managin files of the records.
+  * ## When:
+    * Since the world is going towards digitalization demand has increased and also difficulties coming in managin files of the records.
 
-* ## Where:
-   * This problem is faced everywhere in India and espeacially in small town or villege school.
+  * ## Where:
+    * This problem is faced everywhere in India and espeacially in small town or villege school.
 
-* ## How:
-   * This problem may cause loss of data. Finding the record is also a difficult and time consuming task. Also data may not be remotely accessible. 
+  * ## How:
+    * This problem may cause loss of data. Finding the record is also a difficult and time consuming task. Also data may not be remotely accessible. 
 
-# Detail requirements
-* ## High Level Requirements:
+## Detail requirements
+  * ## High Level Requirements
 | ID | Description | Status (Implemented/Future) |
 | ----- | ----- | ------- |
 | HLR 01 | Menu | Implemented |
@@ -54,7 +54,7 @@
 | HLR 06 | User can Generate report | Implemented |
 | HLR 07 | User can Update record | Future |
 
-* ##  Low level Requirements:
+  * ##  Low level Requirements
 | ID | Description | Status (Implemented/Future) |
 | ----- | ----- | ------- |
 | LLR 01| Menu will consist of all the operations available in the application and their navigation to respective function | Implemented |
@@ -63,4 +63,3 @@
 | LLR 04| Delete function will take roll number as input and delete the record from our file and show the successfull deletion message | Implemented |
 | LLR 05| Generate report option will give all the data of all the students record available in our file | Implemented |
 | LLR 06| Update record feature will give access to users to update their record which will also update data in our file system | Future |
-

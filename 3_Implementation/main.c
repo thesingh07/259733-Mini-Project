@@ -3,9 +3,9 @@
 //Using structure to define the schema of our records
 struct students {
     char name[50];
-    int standard;
+    char standard[5];
     int rollno;
-    long unsigned int phoneNo;
+    unsigned long int phoneNo;
 } stu;
 
 //Function to add records in file
@@ -15,7 +15,7 @@ void add(){
     printf("Enter Name: ");
     scanf("%s",&stu.name);
     printf("Enter Standard: ");
-    scanf("%d",&stu.standard);
+    scanf("%s",&stu.standard);
     printf("Enter Roll Number: ");
     scanf("%d",&stu.rollno);
     printf("Enter Phone Number: ");
@@ -74,7 +74,7 @@ void find(){
 			a=stu.rollno;
 			if(a==roll){
 				printf("\nName: %s",stu.name);
-				printf("\nStandard: %d",stu.standard);
+				printf("\nStandard: %s",stu.standard);
 				printf("\nRoll Number: %d",stu.rollno);
 				printf("\nPhone Number: %ld",stu.phoneNo);
 			}
@@ -89,7 +89,7 @@ void show(){
 	printf("\nName \t Standard \t Roll Number \t Phone Number");
 	printf("\n----------------------------------------------------");
 	while(fread(&stu,sizeof(stu),1,fp4)){
-	printf("\n%s \t %d \t\t %d \t\t %ld",stu.name,stu.standard,stu.rollno,stu.phoneNo);
+	printf("\n%s \t %s \t\t %d \t\t %ld",stu.name,stu.standard,stu.rollno,stu.phoneNo);
 	}
 	fclose(fp4);
 }
