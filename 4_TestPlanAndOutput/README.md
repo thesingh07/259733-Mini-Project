@@ -1,5 +1,5 @@
-# TEST PLAN:
-  * ## High level test plan
+# TEST PLAN
+*   ## High level test plan
 | **Test ID** | **Description**            | **Exp O/P** | **Actual Out** |**Type Of Test**  |    
 |-------------|----------------------------|-------------|----------------|------------------|
 | HLT01 |Add record in the file|Success| Success |Requirement based |
@@ -8,7 +8,7 @@
 | HLT04 |Generate report which will contain all the data in the file |Success|Success|Requirement based|
 | HLT05 | Data are saved in our file and is accessible after reopening of the system|Success|Success|Requirement based|
 
-  * ## Low level test plan
+*   ## Low level test plan
 | **Test ID** | **Description**            | **Exp O/P** | **Actual Out** |**Type Of Test**  |    
 |-------------|----------------------------|-------------|----------------|------------------|
 | LLT01 |If user choose display option and the file is empty then show the error message |Success| Success |Requirement based |
