@@ -6,7 +6,7 @@
 | HLT02 |Find record in the file|Success|Success |Success|Requirement based|
 | HLT03 |Delete record in the file|Success|Success |Success|Requirement based|
 | HLT04 |Generate report which will contain all the data in the file |Success|Success|Requirement based|
-| HLT05 ||Success|Success|Requirement based|
+| HLT05 | Data are saved in our file and is accessible after reopening of the system|Success|Success|Requirement based|
 
   * ## Low level test plan
 | **Test ID** | **Description**            | **Exp O/P** | **Actual Out** |**Type Of Test**  |    
