@@ -1,6 +1,5 @@
 //Header files
-#include<stdio.h>
-#include<stdlib.h>
+#include<student_RC.h>
 
 //Using structure to define the schema of our records
 struct students {
