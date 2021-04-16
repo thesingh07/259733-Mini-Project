@@ -2,7 +2,7 @@
 
 Build | Code Quality | cppcheck | [Git Inspector](using github.io option)
 ------|----------|-------|--------------
-||[![cppcheck-action](https://github.com/thesingh07/259733-Mini-Project/actions/workflows/cppcheck.yml/badge.svg)](https://github.com/thesingh07/259733-Mini-Project/actions/workflows/cppcheck.yml)|
+|[![C/C++ CI](https://github.com/thesingh07/259733-Mini-Project/actions/workflows/c-build.yml/badge.svg)](https://github.com/thesingh07/259733-Mini-Project/actions/workflows/c-build.yml)| |[![cppcheck-action](https://github.com/thesingh07/259733-Mini-Project/actions/workflows/cppcheck.yml/badge.svg)](https://github.com/thesingh07/259733-Mini-Project/actions/workflows/cppcheck.yml)|
 
 
 ## Folder Structure
