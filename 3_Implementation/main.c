@@ -1,5 +1,5 @@
 //Header files
-#include<Student_RC.h>
+#include<stdio.h>
 
 //Using structure to define the schema of our records
 struct students {
@@ -10,7 +10,7 @@ struct students {
 } stu;
 
 //Function to add records in file
-/*void add(){
+void add(){
     FILE *fp;
     fp= fopen("StudentRC","a");
     printf("Enter Name: ");
@@ -25,7 +25,6 @@ struct students {
     fwrite(&stu,sizeof(stu),1,fp);
     fclose(fp);
 }
-*/
 
 //Function to delete record from our file
 void deleteRec(){
