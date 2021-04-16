@@ -25,6 +25,10 @@ void add(){
     fwrite(&stu,sizeof(stu),1,fp);
     fclose(fp);
 }
+<<<<<<< HEAD
+=======
+
+>>>>>>> 7be2bcb7ae39c70abb3b657a6149fee9a3fe7f49
 
 //Function to delete record from our file
 void deleteRec(){
