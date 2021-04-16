@@ -1,4 +1,5 @@
 #include<stdio.h>
+#include<stdlib.h>
 
 //Using structure to define the schema of our records
 struct students {
