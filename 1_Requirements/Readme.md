@@ -19,6 +19,9 @@ Before 2000 | Paper based record system | $100K
 2000 - 2010 | Usage of Computer systems | $100K 
 After 2010| Many good record maintance softwares | $50K 
 
+## Aging
+*  With the time we have seen a huge change in record management system. From recording data in the paper files and keeping it in rooms to now managing them using great softwares and storing them on cloud. The digitalisation of record management system enables users to access data from anywhere and provided an efficient way of storing data and also made CRUD operations very easy.
+  
 ## Defining Our System
 ### Features
   * Student record system have following features:
