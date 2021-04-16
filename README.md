@@ -1,4 +1,10 @@
 # Student Record System
+
+Build | Code Quality | cppcheck | [Git Inspector](using github.io option)
+------|----------|-------|--------------
+||[![cppcheck-action](https://github.com/thesingh07/259733-Mini-Project/actions/workflows/cppcheck.yml.svg)](https://github.com/thesingh07/259733-Mini-Project/actions/workflows/cppcheck.yml)|
+
+
 ## Folder Structure
 Folder             | Description
 -------------------| -----------------------------------------
